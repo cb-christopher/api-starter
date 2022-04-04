@@ -1,0 +1,2490 @@
+[
+    {
+        "job_type": "Test Scheduler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Test Recurring Scheduler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Test No Txn",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Test System Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Test Scheduler Site",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "New Errors",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Queueman Failure Reschedule",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "MEDIUM",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Queueman Failure Export",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "MEDIUM",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Clean Lite Sites",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "LOW",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Resync Lite Sites",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "LOW",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Queueman Message Retry",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "MEDIUM",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "End Trial",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Sub Renewal",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Sub Cancelation",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Sub Expiration",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Dunning Retry",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "invoice-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Offline Dunning Retry",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "invoice-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Sub Coupon Exhaust",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Email Invoice",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "email-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Notify New Revenue Email",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "email-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Collect Invoice",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "invoice-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Send Invoice Generated Event",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Posted Invoice Collection Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "invoice-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Send invoice to Storecove",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "MEDIUM",
+        "module": "invoice-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Send credit note to Storecove",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "MEDIUM",
+        "module": "invoice-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Start_Subscription",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "End Trial Reminder",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Sub Cancelation Reminder",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Sub Expiry Reminder",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "email-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Card Expiring Reminder",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Card Expired Notifier",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Hosted Pages Cleaner",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "hp-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "ChargeBee Emailer",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "email-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "ChargeBee Emailer General",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "email-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Sub Trial Ending",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "email-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Sub Renewal Reminder",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "email-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Sub Cancelling",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "email-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Sub Renewal Webhook Reminder",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Net Term Payment Due Reminder",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Sub Renewal Reminder 2",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "email-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Sub Trial Ending 2",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "email-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Email V1 Reminder Scheduler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "email-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Email V1 Reminder Handler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "email-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "WorldPay Poller",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Tco Sub Renewal",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Tco Hosted Page Check",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "hp-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Tco Invoice Check",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Tco Cancel Retry",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Email Cust",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "email-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Email Pdf Cust",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "invoice-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Email Errors",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Schedule Analysis Report",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Schedule Analysis Report For Noc",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "MS API Key Manager",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "MailChimp Sync",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "integrations-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "MailChimp Sync Now",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "integrations-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Customer Digest Email",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "reports-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Customer Daily Digest Email",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "reports-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Customer Action Email",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Migration Validation",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Migration Import",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Event Handler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Webhook Handler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Email Handler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "email-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Event Action Email",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "email-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Event Action Webhook",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Event Action Zapier",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "integrations-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Event Action Refersion",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "integrations-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Event Action Referral",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "integrations-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Event Action Slack",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "integrations-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Email Action Handler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "email-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Event Action Ecommerce",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "integrations-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Event Action Hubspot Sdf",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "integrations-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Email Query Result",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "email-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Export Data",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "reports-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Export Data Api",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "reports-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Delete Exports",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "reports-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Tp Adapter Handler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "TplTheme Download",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "hp-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Tp Refersion Handler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "integrations-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Tp Referral Handler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "integrations-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Tp Slack Handler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "integrations-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Tp Bespoke Handler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "professional-services-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Tp Ecommerce Handler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "integrations-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Delete Portal Sessions",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Delete App Sessions",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Insert SubMetrics",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Insert SubMetrics2",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Migrate MRR and CMRR",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "reports-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "MRR Tax Fix",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "reports-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Migrate General Notes",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Insert Stripe Card Token",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Check Stripe Card Token",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Check Stripe Card Token 2",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Update SubMetrics",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Update SubMetrics For Tax Change",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "invoice-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Update Sub Metric for Migrated Site",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Monthly CMRR Update",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "reports-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Monthly CMRR",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "reports-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Daily Crunching",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "reports-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Dashboard Recrunching",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "reports-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Customer Analytics Data Export",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "reports-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Amazon Payments Sync",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Vat Validation Check",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "invoice-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Portal Email",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "email-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Migrate Current Term Charges",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "invoice-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Migrate Subscription Term Counter",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Authorize Ach Txn Sync",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Account Setup Reminder Email",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "bizops-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Push Intercom Data",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "bizops-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Txn Err Fetcher",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Handler Executor",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Handler Daemon",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Reset Analytics For CusNSub Delete",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "reports-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Reset Analytics",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "reports-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Sp Gw Redact",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Avalara Transaction",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "invoice-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Freemium Threshold Tracker",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "bizops-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Auto Exchange Rate Update",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "reports-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Err Dispatcher",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Gw Err Handler Report",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Tp Webhook Log Cleanup",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Delete All Credit Cards",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Stripe Ach Txn Sync",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Avalara Address Validation Tool",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "invoice-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Delete Resource",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Cancel All Subscriptions",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Identify Fraud Customer",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Delete Customer",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Delete Subscription",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Mark Voided Lineitems Invoiced",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "invoice-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "GoCardless Webhook Processor",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Reset Analytics Scheduler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "reports-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Anomaly detection",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Posted Invoice Handler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "invoice-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Saas Metric Generator",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "reports-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Copy Customer ",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Send Email Cust",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "email-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Send Bulk Email Invoice",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "email-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "I18N Cache cleaner",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "email-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Switch Base Currency",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "reports-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "I18N Zip Download",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "email-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Check Event Failures",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Delete Event Data",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Adyen Notification Handler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Hp Metrics Calculator",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "hp-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Friendbuy Referral Rewards",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "integrations-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Get Customer Referral Url",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Time Machine Exec",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Time Machine Populate",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Hp Abandon Tracker Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "hp-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Retarget Hp Abandoned Users",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "hp-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Fcpa Site Usage Report Export Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Fcpa Site Org Det Export Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Referralcandy Referral Rewards",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "integrations-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Revenue Recognition",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "integrations-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Fraud Notification",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Salesforce Sync",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "integrations-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Clear Sandbox",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Notification Scheduler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "email-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Notification Handler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "email-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Dunning Notification Handler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "email-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Notification Scheduler v2",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "email-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Notification Handler v2",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "email-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Scheduled Notification Handler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "email-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Ad Hoc Notification Handler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "email-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Clear Temp Ad Hoc Notifications",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "LOW",
+        "module": "email-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Resend Notification Handler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "email-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Tax Scheduler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "invoice-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Update Merchant Threshold Revenue",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "bizops-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Update Merchant Net Payments",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "bizops-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Check General Failures",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Check Common Failures",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Refund Credit Note",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Payment Collection",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Slack Report",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "integrations-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Send Email For Invalid Vat Number",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "invoice-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Renew Addon",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Invoice Unbilled Charges",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "invoice-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Braintree Card Updater",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Reset Analytics Clean Up Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "reports-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Offline Dunning Scheduler Deprecated",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "invoice-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Offline Dunning Scheduler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "invoice-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Sub Pause Reminder",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "email-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Sub Pause",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Sub Resumption Reminder",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "email-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Sub Resumption",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Baid Cancellation Notification",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Dashboard Query Runner",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "reports-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Paypal Refund Txn Observer",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Create Orders For Invoice",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "integrations-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Assign order number",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "integrations-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Trigger order ready to process",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "integrations-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Trigger order ready to ship",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "integrations-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Automatic Virtual Bank Account Creation",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Clear PII Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Delete Cancelled Site Data",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Unsegmented Clear PII Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Auto Account Cancellation Scheduler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Account Cancellation",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Copy Products Frm Src Site",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Revenue Story Notifier Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "revenue-story",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Update User Notifications Segment",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "bizops-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Auto hp log data cleaner",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "hp-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Hp log cleaning Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "hp-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Merge two customer in a site",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Clear Past Pii Scheduler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Auto Clear Pii Scheduler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Mark Customer Fradulent",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Fetch Authorize Net AU Details",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Process Authorize Net AU Details",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Sub Renewal Reminder Webhook handler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "professional-services-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Dangling Txn Fetcher",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "VAT Number Validation scheduler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "invoice-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "VAT Number Validation Check",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "invoice-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Bulk Actions Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Site Audit Report",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "bizops-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Site Reactivation Handling",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Invoice Threshold Tracker",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "bizops-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Gen Audit Record scheduler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Gen Audit Record",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Expire Quote",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "invoice-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Gift Claim",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Gift Expire",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Gift Claim Notification",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Account Health Check Metrics Export Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "bizops-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Remove Segment Notification At Expiry",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "bizops-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Change Subscription Calendar Model",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Change Coupon Validity Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Push Delete Sites Users Notifier Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "bizops-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Cb Token Expiry Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Cb Token Deletion Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Subscription scheduled changes",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Customer MRR",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "TPV Bucket For Merchants",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "bizops-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Transfer Site Setting",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "professional-services-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Transfer Site Setting Dump Cleanup",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "LOW",
+        "module": "professional-services-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "EURO Exchange Rate Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "invoice-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Payment Intent Expiry Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Event Queue Handler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Webhook Event Handler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Email Event Handler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Zapier Event Handler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Refersion Event Handler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Referral Event Handler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Slack Event Handler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Bespoke Event Handler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "professional-services-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Ecommerce Event Handler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "integrations-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Hubspot SDF Event Handler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "integrations-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Custom Export",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "professional-services-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Custom Offline Dunning",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "professional-services-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Custom Offline Dunning Retry",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "professional-services-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Tp Log Validator",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Gateway Error Notification",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "MEDIUM",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Event Handler Anomaly Cleanup",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Revenue Recognition Migration Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "integrations-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Revenue Recognition Daily Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "integrations-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Revenue Recognition File Process Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "integrations-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": " Auto Fix Event Commits",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "General Commit Cleanup",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Notify merchant trial extension",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "bizops-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Lite Site Sync Checker Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "bizops-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Pending Jobs Monitor",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Jira Job Failure Sqs Pusher",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Revenue Recognition Monthly Split Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "integrations-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Checkout Webhook Processing",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Fraud Customer Identification",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Delete Logs",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Stripe Customer Sync",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "MEDIUM",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Renew Contract job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Cancel subscription and end contract job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Change subscription to evergreen and end contract job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Expire Jwt auth codes",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Source Payments Update",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "invoice-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Cybersource Txn Sync",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Webhook Failure Notification Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "framework-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Export Data Plan MS Api",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "reports-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Bizops Notifier Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "bizops-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Revenue Recognition Record Split Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "integrations-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Revenue Recognition ReRun Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "MEDIUM",
+        "module": "integrations-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Fetch Site Billing Info Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "MEDIUM",
+        "module": "bizops-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Revenue Recognition Reconciliation Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "LOW",
+        "module": "integrations-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Dispute Processor Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Advance Invoices",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "invoice-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Bulk ops 2 progress monitor",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "ce-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Bulk ops 2 Dlq processor",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "ce-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Bulk ops 2 report generator",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "ce-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Close Pending Invoice Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "invoice-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Update Spreedly Card Details",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "ce-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Custom Sub Renewal Reminder Webhook Handler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "ce-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Custom Sub Renewal Webhook Reminder",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "ce-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Cb Customer Sign Up Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "bizops-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Revenue Story Notifier Job V2",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "revenue-story",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Cb Customer Site Sales Calculator",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "bizops-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Cb Customer Site Voided Sales Calculator",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "bizops-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "DemoData PC2",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Send Chargeback Notification",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "MEDIUM",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Site Event Change Data Capture",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "revenue-story",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Coupon Validity Expiry",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "subscriptions-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "CyberSource Payment Method Sync",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "MEDIUM",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Delete Payment Methods",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "MEDIUM",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Gateway SQS ReScheduler",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "QuickBooks Token Refresh Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "MEDIUM",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "QuickBooks Event Scheduler Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "PC2 Migration Validation",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "bizops-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Stripe Fees Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "LOW",
+        "module": "bizops-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Stripe Ledger Job",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "bizops-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Metered billing usages list",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "LOW",
+        "module": "bizops-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Asynchronous Payment Collection",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "HIGH",
+        "module": "gateway-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "EBS User Login Access",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "LOW",
+        "module": "bizops-team",
+        "micro_service": "cb-app"
+    },
+    {
+        "job_type": "Stripe Fees Admin OTJ",
+        "sla_for_execution": "M1",
+        "sla_for_job_pick_delay": "M1",
+        "criticality": "LOW",
+        "module": "bizops-team",
+        "micro_service": "cb-app"
+    }
+]
