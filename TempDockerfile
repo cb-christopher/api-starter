@@ -1,0 +1,6 @@
+FROM 606027973764.dkr.ecr.us-east-1.amazonaws.com/cb-builds-us-e1-chargebee-base-repo:cb-spring-boot-base-image-v1
+
+ENV JAVA_HOME /usr/java/jdk1.8.0_144/
+
+RUN curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-Darwin-x86_64" -o /usr/local/bin/docker-compose
+RUN chmod +x /usr/local/bin/docker-compose
